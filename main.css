@@ -1,0 +1,8 @@
+.navBar{
+  list-style-type:none;
+}
+.navItem{
+  display:inline;
+  border:1px solid black;
+  width:10px;
+}
