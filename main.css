@@ -1,8 +1,53 @@
+body{
+  background-color:white;
+  font-family: sans-serif;
+}
+.black-page{
+  background-color:black;
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+.white-page{
+  background-color:white;
+  color:black;
+  padding: 20px;
+  text-align:center;
+}
+.header{
+  align-content:centre;
+  margin:auto;
+}
+.navigation{
+  margin:auto;
+  border:1px solid black;
+  justify-content:center;
+  text-align:center;
+}
 .navBar{
   list-style-type:none;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
 }
 .navItem{
   display:inline;
-  border:1px solid black;
+  border:1px solid white;
   width:10px;
+  padding:10px;
+}
+h1{
+  text-align:center;
+  margin:75px;
+  font-size: 75px;
+}
+h4{
+  text-align:center;
+}
+p{
+  text-align:center;}
+.contact{
+  border:1px solid;
+  padding: 5px;
+  margin:20px;
 }
