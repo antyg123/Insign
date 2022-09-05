@@ -32,9 +32,17 @@ body{
 }
 .navItem{
   display:inline;
-  border:1px solid white;
-  width:10px;
-  padding:10px;
+  border: white;
+  border-style: solid;
+  border-width: 2x;
+  width:30px;
+  padding:5px 20px;
+  transition-duration: 0.5s;
+}
+.navItem:hover{
+
+  border: solid black;
+  curser:pointer;
 }
 h1{
   text-align:center;
@@ -47,7 +55,11 @@ h4{
 p{
   text-align:center;}
 .contact{
-  border:1px solid;
+  border:2px solid;
   padding: 5px;
   margin:20px;
+  transition-duration: 0.5;
+}
+.contact:hover{
+  curser:pointer;
 }
